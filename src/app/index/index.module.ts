@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from 'src/shared/shared.module';
+import { ClienteFormComponent } from './cliente-form/cliente-form.component';
+import { ProductoFormComponent } from './producto-form/producto-form.component';
 
 const routes: Routes = [
   {
@@ -13,7 +15,9 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    IndexComponent
+    IndexComponent,
+    ClienteFormComponent,
+    ProductoFormComponent
   ],
   imports: [
     CommonModule,
